@@ -1,3 +1,5 @@
+package javaSE.gblteles.javabasics;
+
 import java.util.*;
 
 public class Triangle {

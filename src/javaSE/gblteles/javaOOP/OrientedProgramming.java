@@ -1,3 +1,5 @@
+package javaSE.gblteles.javaOOP;
+
 import java.util.Arrays;
 
 class Rectangle {
@@ -72,7 +74,7 @@ class Subject {
         return x>= maxMarks/10*40;
     }
     public String toString() {
-        return "\nSubject ID:" + subID + "\nName: " + name + "\nMarks Obtained: " + marksObtain;
+        return "\njavaEE.gblteles.javaOOP.Subject ID:" + subID + "\nName: " + name + "\nMarks Obtained: " + marksObtain;
     }
 }
 class Student {

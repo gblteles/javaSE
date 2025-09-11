@@ -1,3 +1,5 @@
+package javaSE.gblteles.javabasics;
+
 import java.lang.*;
 public class Print {
         String str1 = "HELLO WORLD!";
