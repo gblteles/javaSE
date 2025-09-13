@@ -28,9 +28,9 @@ class RectangleShape extends Shape{
     void perimeter(){
         System.out.println(length*2+breadth*2);
     }
-//    void area(){
-//        System.out.println(length*breadth);
-//    }
+    void area(){
+        System.out.println(length*breadth);
+    }
 }
 
 public class Abstract {
