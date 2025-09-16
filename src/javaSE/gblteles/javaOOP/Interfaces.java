@@ -2,6 +2,9 @@ package javaSE.gblteles.javaOOP;
 
 interface Member {
     void callback();
+    default void x(){
+        System.out.println("hello world");
+    }
 }
 
 class Store {
@@ -43,5 +46,7 @@ public class Interfaces {
         BB.register(c5);
 
         BB.inviteSale();
+
+        c1.x();
     }
 }
